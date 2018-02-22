@@ -1,0 +1,79 @@
+All SuperBowl Winners
+Winning Team             Year  Winning QB                    Winning Coach            MVP                           Score Diff
+
+Green Bay Packers        67    Bart Starr                    Vince Lombardi           Bart Starr                    25        
+Green Bay Packers        68    Bart Starr                    Vince Lombardi           Bart Starr                    19        
+New York Jets            69    Joe Namath                    Weeb Ewbank              Joe Namath                    9         
+Kansas City Chiefs       70    Len Dawson Mike Livingston    Hank Stram               Len Dawson                    16        
+Baltimore Colts          71    Earl Morrall Johnny Unitas    Don McCafferty           Chuck Howley                  3         
+Dallas Cowboys           72    Roger Staubach                Tom Landry               Roger Staubach                21        
+Miami Dolphins           73    Bob Griese                    Don Shula                Jake Scott                    7         
+Miami Dolphins           74    Bob Griese                    Don Shula                Larry Csonka                  17        
+Pittsburgh Steelers      75    Terry Bradshaw                Chuck Noll               Franco Harris                 10        
+Pittsburgh Steelers      76    Terry Bradshaw                Chuck Noll               Lynn Swann                    4         
+Oakland Raiders          77    Kenny Stabler                 John Madden              Fred Biletnikoff              18        
+Dallas Cowboys           78    Roger Staubach                Tom Landry               Harvey Martin Randy White     17        
+Pittsburgh Steelers      79    Terry Bradshaw                Chuck Noll               Terry Bradshaw                4         
+Pittsburgh Steelers      80    Terry Bradshaw                Chuck Noll               Terry Bradshaw                12        
+Oakland Raiders          81    Jim Plunkett                  Tom Flores               Jim Plunkett                  17        
+San Francisco 49ers      82    Joe Montana                   Bill Walsh               Joe Montana                   5         
+Washington Redskins      83    Joe Theismann                 Joe Gibbs                John Riggins                  10        
+Los Angeles Raiders      84    Jim Plunkett                  Tom Flores               Marcus Allen                  29        
+San Francisco 49ers      85    Joe Montano                   Bill Walsh               Joe Montana                   22        
+Chicago Bears            86    Jim McMahon                   Mike Ditka               Richard Dent                  36        
+New York Giants          87    Phil Simms                    Bill Parcells            Phil Simms                    19        
+Washington Redskins      88    Doug Williams                 Joe Gibbs                Doug Williams                 32        
+San Francisco 49ers      89    Joe Montana                   Bill Walsh               Jerry Rice                    4         
+San Francisco 49ers      90    Joe Montana                   George Seifert           Joe Montana                   45        
+New York Giants          91    Jeff Hostetler                Bill Parcells            Ottis Anderson                1         
+Washington Redskins      92    Mark Rypien                   Joe Gibbs                Mark Rypien                   13        
+Dallas Cowboys           93    Troy Aikman                   Jimmy Johnson            Troy Aikman                   35        
+Dallas Cowboys           94    Troy Aikman                   Jimmy Johnson            Emmitt Smith                  17        
+San Francisco 49ers      95    Steve Young                   George Seifert           Steve Young                   23        
+Dallas Cowboys           96    Troy Aikman                   Barry Switzer            Larry Brown                   10        
+Green Bay Packers        97    Brett Favre                   Mike Holmgren            Desmond Howard                14        
+Denver Broncos           98    John Elway                    Mike Shanahan            Terrell Davis                 7         
+Denver Broncos           99    John Elway                    Mike Shanahan            John Elway                    15        
+St. Louis Rams           00    Kurt Warner                   Dick Vermeil             Kurt Warner                   7         
+Baltimore Ravens         01    Trent Dilfer                  Brian Billick            Ray Lewis                     27        
+New England Patriots     02    Tom Brady                     Bill Belichick           Tom Brady                     3         
+Tampa Bay Buccaneers     03    Brad Johnson                  Jon Gruden               Dexter Jackson                27        
+New England Patriots     04    Tom Brady                     Bill Belichick           Tom Brady                     3         
+New England Patriots     05    Tom Brady                     Bill Belichick           Deion Branch                  3         
+Pittsburgh Steelers      06    Ben Roethlisberger            Bill Cowher              Hines Ward                    11        
+Indianapolis Colts       07    Peyton Manning                Tony Dungy               Peyton Manning                12        
+New York Giants          08    Eli Manning                   Tom Coughlin             Eli Manning                   3         
+Pittsburgh Steelers      09    Ben Roethlisberger            Mike Tomlin              Santonio Holmes               4         
+New Orleans Saints       10    Drew Brees                    Sean Payton              Drew Brees                    14        
+Green Bay Packers        11    Aaron Rodgers                 Mike McCarthy            Aaron Rodgers                 6         
+New York Giants          12    Eli Manning                   Tom Coughlin             Eli Manning                   4         
+Baltimore Ravens         13    Joe Flacco                    John Harbaugh            Joe Flacco                    3         
+Seattle Seahawks         14    Russell Wilson                Pete Carroll             Malcolm Smith                 35        
+New England Patriots     15    Tom Brady                     Bill Belichick           Tom Brady                     4         
+Denver Broncos           16    Peyton Manning                Gary Kubiak              Von Miller                    14        
+New England Patriots     17    Tom Brady                     Bill Belichick           Tom Brady                     6         
+
+Top 5 Attended SuperBowls
+Year  Winning Team             Losing Team              City                     State                    Stadium                  
+
+80    Pittsburgh Steelers      Los Angeles Rams         Pasadena                 California               Rose Bowl                
+83    Washington Redskins      Miami Dolphins           Pasadena                 California               Rose Bowl                
+77    Oakland Raiders          Minnesota Vikings        Pasadena                 California               Rose Bowl                
+11    Green Bay Packers        Pittsburgh Steelers      Arlington                Texas                    Cowboys Stadium          
+87    New York Giants          Denver Broncos           Pasadena                 California               Rose Bowl                
+
+Miami, Florida has hosted the most SuperBowls, in the Orange Bowl Stadium
+
+Two time SuperBowl MVPs
+The MVP                  Winning Team             Losing Team              
+
+Bart Starr               Green Bay Packers        Kansas City Chiefs       
+Terry Bradshaw           Pittsburgh Steelers      Dallas Cowboys           
+Joe Montana              San Francisco 49ers      Cincinnati Bengals       
+Tom Brady                New England Patriots     St. Louis Rams           
+Eli Manning              New York Giants          New England Patriots     
+
+Bill Belichick is the coach that has won the most SuperBowls
+Don Shula is the coach that has lost the most SuperBowls
+Pittsburgh Steelers is the team that has won the most SuperBowls
+Denver Broncos is the team that has lost the most SuperBowls
