@@ -109,7 +109,7 @@ namespace SB_Stats
         {
             var top_mvps = (from row in Rows
                        group row by row.MVP into grp
-                       where grp.Count() >= 2
+                       where grp.Count() > 2
                        select grp.First()).ToList();
             sw.WriteLine("Two time SuperBowl MVPs");
             sw.Write("{0, -25}", "The MVP");
