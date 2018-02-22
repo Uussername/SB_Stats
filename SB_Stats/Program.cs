@@ -15,25 +15,47 @@ namespace SB_Stats
             List<Statistics> Rows = new List<Statistics>();
             string[] values;
             Statistics SuperBowl;
-            string PATH = @"C:\Users\thoantj\OneDrive - dunwoody.edu\Advanced Programing\Projects\SB_Stats\Super_Bowl_Project.csv";
-            string WRITE_PATH = @"C:\Users\thoantj\OneDrive - dunwoody.edu\Advanced Programing\Projects\SB_Stats\stats.txt";
-            Console.WriteLine("Please type in the File Path");
+            string input;
+            string PATH; //@"C:\Users\thoantj\OneDrive - dunwoody.edu\Advanced Programing\Projects\SB_Stats\Super_Bowl_Project.csv"
+            string WRITE_PATH; //@"C:\Users\thoantj\OneDrive - dunwoody.edu\Advanced Programing\Projects\SB_Stats\stats.txt"
+
+            Console.WriteLine("Please enter the File Path for the folder that contains Super_Bowl_Project.csv");
+            Console.WriteLine("This location will also contain the newly written file");
+            input = Console.ReadLine();
+            PATH = input + @"\Super_Bowl_Project.csv";
+            WRITE_PATH = input + @"\Stats.txt";
             //open file stream
-            FileStream file = new FileStream(PATH, FileMode.Open, FileAccess.Read);
-            //open stream reader
-            StreamReader read = new StreamReader(file);
-            read.ReadLine(); // remove the worthless heaer
-            while (!read.EndOfStream)
+            try
             {
-                values = read.ReadLine().Split(',');
-                SuperBowl = new Statistics(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7],
-                    values[8], values[9], values[10], values[11], values[12], values[13], values[14]);
-                Rows.Add(SuperBowl);
+                FileStream file = new FileStream(PATH, FileMode.Open, FileAccess.Read);
+                StreamReader read = new StreamReader(file);
+                read.ReadLine(); // remove the worthless heaer
+                while (!read.EndOfStream)
+                {
+                    values = read.ReadLine().Split(',');
+                    SuperBowl = new Statistics(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7],
+                        values[8], values[9], values[10], values[11], values[12], values[13], values[14]);
+                    Rows.Add(SuperBowl);
+                }
+                read.Close(); //close read stream
+                file.Close(); //close file stream
             }
-            read.Close(); //close read stream
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine("Error: Super_Bowl_Project.csv not in directory \npress any key to end");
+                Console.ReadKey();
+                return;
+            }
+            catch (DirectoryNotFoundException)
+            {
+                Console.WriteLine("Error: Directory does not exist \npress any key to end");
+                Console.ReadKey();
+                return;
+            }
+            Console.WriteLine("File has been read");
+
             using (StreamWriter sw = new StreamWriter(WRITE_PATH))
             {
-
                 SB_Winners(ref Rows, sw);
                 sw.WriteLine();
                 Attending(ref Rows, sw);
@@ -43,9 +65,8 @@ namespace SB_Stats
                 Mveepe(ref Rows, sw);
                 sw.WriteLine();
                 Misc_Stats(ref Rows, sw);
-                
-            }
-            file.Close(); //close file stream
+             }
+            Console.WriteLine("A new file has been created with various Super Bowl statistics and facts at \n{0}\npress any key to end", WRITE_PATH);
             Console.ReadKey();
             return;
         }
