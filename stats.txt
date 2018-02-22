@@ -77,3 +77,5 @@ Bill Belichick is the coach that has won the most SuperBowls
 Don Shula is the coach that has lost the most SuperBowls
 Pittsburgh Steelers is the team that has won the most SuperBowls
 Denver Broncos is the team that has lost the most SuperBowls
+XXIV has the greatest difference in score between the winning and losing team of 45
+The average attendance off all SuperBowls is 77649

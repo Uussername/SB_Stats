@@ -42,13 +42,19 @@ namespace SB_Stats
             }
             catch (FileNotFoundException)
             {
-                Console.WriteLine("Error: Super_Bowl_Project.csv not in directory \npress any key to end");
+                Console.WriteLine("Error: Super_Bowl_Project.csv not in directory \nPress any key to end");
                 Console.ReadKey();
                 return;
             }
             catch (DirectoryNotFoundException)
             {
-                Console.WriteLine("Error: Directory does not exist \npress any key to end");
+                Console.WriteLine("Error: Directory does not exist \nPress any key to end");
+                Console.ReadKey();
+                return;
+            }
+            catch (IOException)
+            {
+                Console.WriteLine("Error: Is the file open in another application? \nPress any key to end");
                 Console.ReadKey();
                 return;
             }
@@ -94,6 +100,8 @@ namespace SB_Stats
             sw.WriteLine($"{Find_Most_LC(Rows)} is the coach that has lost the most SuperBowls");
             sw.WriteLine($"{Find_Most_WT(Rows)} is the team that has won the most SuperBowls");
             sw.WriteLine($"{Find_Most_LT(Rows)} is the team that has lost the most SuperBowls");
+            Point_Dif(Rows, sw);
+            sw.WriteLine($"The average attendance off all SuperBowls is {Attend_Avg(Rows)}");
             return;
         }
         // finds 2 or more time mvps and displays their name, the winning and losing team of that superbowl
@@ -188,6 +196,26 @@ namespace SB_Stats
                             orderby grp.Count() descending
                             select grp).First().ToList();
                 return most[0].Loser;
+        }
+        // finds the SB with the greatest point difference
+        public static void Point_Dif(List<Statistics> data, StreamWriter sw)
+        {
+            var most = (from row in data
+                        orderby row.WinningPts - row.LosingPts descending
+                        select row).ToList();
+            sw.WriteLine($"{most[0].SBNum} has the greatest difference in score between the winning and losing team of a {most[0].WinningPts - most[0].LosingPts} point difference");
+            return;
+        }
+        //finds the average attendance of all Super bowls
+        public static double Attend_Avg(List<Statistics> rows)
+        {
+            List<int> Attend = new List<int>();
+            for (var x = 0; x < rows.Count; x++)
+            {
+                Attend.Add(rows[x].Attendance);
+            }
+            double avg = System.Math.Round(Attend.Average(), 0);
+            return avg;
         }
     }      
 }
