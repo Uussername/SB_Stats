@@ -17,6 +17,7 @@ namespace SB_Stats
             Statistics SuperBowl;
             string PATH = @"C:\Users\thoantj\OneDrive - dunwoody.edu\Advanced Programing\Projects\SB_Stats\Super_Bowl_Project.csv";
             string WRITE_PATH = @"C:\Users\thoantj\OneDrive - dunwoody.edu\Advanced Programing\Projects\SB_Stats\stats.txt";
+            Console.WriteLine("Please type in the File Path");
             //open file stream
             FileStream file = new FileStream(PATH, FileMode.Open, FileAccess.Read);
             //open stream reader
